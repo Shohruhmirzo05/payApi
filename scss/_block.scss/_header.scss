@@ -1,0 +1,40 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header {
+  padding-top: 10px;
+}
+
+.header__container-content {
+  display: flex;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 64px;
+}
+
+.header__list-item a {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 955px) {
+  .header__container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header__list {
+    gap: 40px;
+  }
+}
