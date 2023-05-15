@@ -52,6 +52,10 @@
     align-items: center;
   }
 
+  .footer-logo-img{
+    padding-bottom: 20px;
+  }
+
   .footer__container-content {
     display: flex;
     flex-direction: column;
@@ -63,8 +67,8 @@
     margin-bottom: 20px;
   }
 
-  .footer-list {
-    margin-left: -20px;
+  .footer__list {
+    margin-left: 20px;
     gap: 31px;
   }
 
@@ -75,3 +79,4 @@
     margin-bottom: 20px;
   }
 }
+

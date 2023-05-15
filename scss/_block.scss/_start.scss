@@ -17,7 +17,7 @@
   text-align: center;
   letter-spacing: -0.369231px;
   margin-bottom: 40px;
-  color: $m;
+  color: $main-color;
 }
 
 .start__input-l {
@@ -109,14 +109,14 @@
   .start__input-l {
     max-width: 900px;
     padding: 18px 200px 18px 20px;
-    background: #fbfcfe;
+    background: white;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     border-radius: 28px;
     border: none;
     font-size: 17px;
     margin-left: 160px;
     position: relative;
-    left: 0px;
+    left: -20px;
   }
 
   .start-btn {
@@ -131,8 +131,8 @@
     border: none;
     cursor: pointer;
     position: relative;
-    left: 130px;
-    bottom: 56px;
+    left: -120px;
+    bottom: px;
   }
 }
 
@@ -152,7 +152,7 @@
 
   .start-btn {
     max-width: 573px;
-    padding: 19px 113px;
+    padding: 19px 65px;
     background: #ba4270;
     border-radius: 27px;
     font-weight: 700;
